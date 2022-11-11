@@ -30,14 +30,34 @@ namespace Questão06
             txtNumBolas.Text = slider.Value.ToString();
         }
 
+        private Bingo b;
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            b = new Bingo();
+            b.Iniciar(int.Parse(txtNumBolas.Text));
+            iniciar.IsEnabled = false;
+            sortear.IsEnabled = true;
+            numSorteio.Clear();
+            numSorteados.Clear();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            
+            int x = b.Sortear();
+            if (x == -1)
+            {
+                numSorteio.Text = "Fim";
+                iniciar.IsEnabled = true;
+                sortear.IsEnabled = false;
+            }
+            else
+            {
+                numSorteio.Text = x.ToString();
+                string s = "";
+                foreach (int i in b.Sorteados())
+                    s = s + i + " - ";
+                numSorteados.Text = s;
+            }
         }
     }
 }

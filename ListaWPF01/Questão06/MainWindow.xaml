@@ -29,10 +29,10 @@
                 <Button x:Name="iniciar" Margin="4" Grid.Column="2" Content="Iniciar" Click="Button_Click" />
             </Grid>
         </GroupBox>
-        <Button x:Name="sortear" Content="Sortear" Grid.Row="1" Margin="4" Click="Button_Click_1" />
+        <Button x:Name="sortear" Content="Sortear" Grid.Row="1" Margin="4" Click="Button_Click_1" IsEnabled="False" />
         <TextBox x:Name="numSorteio" IsReadOnly="True" Margin="4" Text="" Grid.Row="1" Grid.Column="1" FontSize="72" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
         <GroupBox Header="Sorteados" Margin="4" Grid.Row="2" Grid.ColumnSpan="2">
-            <TextBox IsReadOnly="True" Text="" />
+            <TextBox x:Name="numSorteados" IsReadOnly="True" Text="" TextWrapping="Wrap" />
         </GroupBox>
     </Grid>
 </Window>
