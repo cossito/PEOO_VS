@@ -24,5 +24,16 @@ namespace Questão02
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            contato x = new contato(txt1.Text, txt2.Text, txt3.Text);
+            lista.Items.Add(x);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            if (lista.SelectedItems != null) lista.Items.Remove(lista.SelectedItem);
+        }
     }
 }
