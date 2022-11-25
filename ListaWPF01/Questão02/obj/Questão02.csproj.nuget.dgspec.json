@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pichau\\Source\\Repos\\PEOO_VS\\ListaWPF01\\Questão02\\Questão02.csproj": {}
+    "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\ListaWPF01\\Questão02\\Questão02.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pichau\\Source\\Repos\\PEOO_VS\\ListaWPF01\\Questão02\\Questão02.csproj": {
+    "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\ListaWPF01\\Questão02\\Questão02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pichau\\Source\\Repos\\PEOO_VS\\ListaWPF01\\Questão02\\Questão02.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\ListaWPF01\\Questão02\\Questão02.csproj",
         "projectName": "Questão02",
-        "projectPath": "C:\\Users\\Pichau\\Source\\Repos\\PEOO_VS\\ListaWPF01\\Questão02\\Questão02.csproj",
+        "projectPath": "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\ListaWPF01\\Questão02\\Questão02.csproj",
         "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pichau\\Source\\Repos\\PEOO_VS\\ListaWPF01\\Questão02\\obj\\",
+        "outputPath": "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\ListaWPF01\\Questão02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
