@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastro de time", "Cadastro de time.csproj", "{F19BD90E-8956-408D-AE60-D6D73E9C6283}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F19BD90E-8956-408D-AE60-D6D73E9C6283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F19BD90E-8956-408D-AE60-D6D73E9C6283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F19BD90E-8956-408D-AE60-D6D73E9C6283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F19BD90E-8956-408D-AE60-D6D73E9C6283}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E799F90-7624-4810-B937-A036FBB75053}
+	EndGlobalSection
+EndGlobal

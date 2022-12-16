@@ -1,0 +1,22 @@
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\bin\Debug\net5.0-windows\Cadastro de time.exe
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\bin\Debug\net5.0-windows\Cadastro de time.deps.json
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\bin\Debug\net5.0-windows\Cadastro de time.runtimeconfig.json
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\bin\Debug\net5.0-windows\Cadastro de time.runtimeconfig.dev.json
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\bin\Debug\net5.0-windows\Cadastro de time.dll
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\bin\Debug\net5.0-windows\Cadastro de time.pdb
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time.csproj.AssemblyReference.cache
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time_MarkupCompile.cache
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time_MarkupCompile.lref
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time.g.resources
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time.AssemblyInfoInputs.cache
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time.AssemblyInfo.cs
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time.dll
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\refint\Cadastro de time.dll
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time.pdb
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\Cadastro de time.genruntimeconfig.cache
+C:\Users\Pichau\source\repos\PEOO_VS\Cadastro de time\obj\Debug\net5.0-windows\ref\Cadastro de time.dll
