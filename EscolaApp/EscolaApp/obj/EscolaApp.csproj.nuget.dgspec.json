@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20211011110006\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj": {}
+    "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20211011110006\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj": {
+    "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20211011110006\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj",
+        "projectUniqueName": "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj",
         "projectName": "EscolaApp",
-        "projectPath": "C:\\Users\\20211011110006\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj",
+        "projectPath": "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj",
         "packagesPath": "C:\\Users\\20211011110006\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20211011110006\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\obj\\",
+        "outputPath": "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\20211011110006\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
         }
       }
     }
