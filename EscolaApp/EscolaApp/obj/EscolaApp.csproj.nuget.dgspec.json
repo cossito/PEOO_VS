@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj": {}
+    "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj": {
+    "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj",
+        "projectUniqueName": "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj",
         "projectName": "EscolaApp",
-        "projectPath": "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj",
-        "packagesPath": "C:\\Users\\20211011110006\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\20211011110006\\Source\\Repos\\PEOO_VS\\EscolaApp\\EscolaApp\\obj\\",
+        "projectPath": "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\EscolaApp.csproj",
+        "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pichau\\source\\repos\\PEOO_VS\\EscolaApp\\EscolaApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\20211011110006\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0-windows7.0"
+          "net5.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

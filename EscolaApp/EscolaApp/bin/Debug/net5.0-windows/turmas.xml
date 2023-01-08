@@ -2,9 +2,9 @@
 <ArrayOfTurma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Turma>
     <Id>1</Id>
-    <Curso>GOMES</Curso>
-    <Descricao>thsts</Descricao>
-    <AnoLetivo>2020</AnoLetivo>
+    <Curso>macof</Curso>
+    <Descricao>wfjok</Descricao>
+    <AnoLetivo>2235</AnoLetivo>
   </Turma>
   <Turma>
     <Id>2</Id>
