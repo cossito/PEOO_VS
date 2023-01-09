@@ -5,17 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="AlunoWindow" Height="200" Width="492">
+        Title="AlunoWindow" Height="233" Width="562">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="21,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Id:"/></TextBlock>
-        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="21,39,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
-        <TextBlock HorizontalAlignment="Left" Margin="67,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"><Run Text="Curso"/><Run Language="pt-br" Text=":"/></TextBlock>
-        <TextBox x:Name="txtCurso" HorizontalAlignment="Left" Margin="67,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="193,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="51"><Run Text="Turma"/><Run Language="pt-br" Text=":"/></TextBlock>
-        <TextBox x:Name="txtTurma" HorizontalAlignment="Left" Margin="193,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="318,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"><Run Text="Ano Letivo"/><Run Language="pt-br" Text=":"/></TextBlock>
-        <TextBox x:Name="txtAno" HorizontalAlignment="Left" Margin="318,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
-        <TextBlock HorizontalAlignment="Left" Margin="406,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55"><Run Text="IdTurma"/><Run Language="pt-br" Text=":"/></TextBlock>
-        <TextBox x:Name="txtAno_Copy" HorizontalAlignment="Left" Margin="406,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76"/>
+        <TextBlock HorizontalAlignment="Left" Margin="14,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Column="1"><Run Language="pt-br" Text="Id:"/></TextBlock>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="14,43,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="16"><Run Language="pt-br" Text="Nome"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="60,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="186,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"><Run Language="pt-br" Text="Matricula"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="txtMatricula" HorizontalAlignment="Left" Margin="186,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="310,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" Height="16"><Run Text="E"/><Run Language="pt-br" Text="-"/><Run Text="mail"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="310,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBlock HorizontalAlignment="Left" Margin="458,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="54" Height="20"><Run Text="IdTurma"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox x:Name="txtIdTurma" HorizontalAlignment="Left" Margin="458,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="14,72,0,0" VerticalAlignment="Top"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="60,72,0,0" VerticalAlignment="Top"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="100,72,0,0" VerticalAlignment="Top"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="158,72,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listAlunos" Margin="14,110,17,10" SelectionChanged="listAlunos_SelectionChanged"/>
     </Grid>
 </Window>

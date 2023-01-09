@@ -75,13 +75,5 @@ namespace EscolaApp
             // fecha o arquivo
             f.Close();
         }
-        public static void Matricular(Aluno a, Turma t)
-        {
-
-        }
-        public static List<Aluno> Listar(Turma t)
-        {
-
-        }
     }
 }
