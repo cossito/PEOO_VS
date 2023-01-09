@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="AlunoWindow" Height="250" Width="300">
+        Title="AlunoWindow" Height="200" Width="492">
     <Grid>
-        
+        <TextBlock HorizontalAlignment="Left" Margin="21,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Id:"/></TextBlock>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="21,39,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="67,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40"><Run Text="Curso"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox x:Name="txtCurso" HorizontalAlignment="Left" Margin="67,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="193,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="51"><Run Text="Turma"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox x:Name="txtTurma" HorizontalAlignment="Left" Margin="193,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="318,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"><Run Text="Ano Letivo"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox x:Name="txtAno" HorizontalAlignment="Left" Margin="318,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
+        <TextBlock HorizontalAlignment="Left" Margin="406,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="55"><Run Text="IdTurma"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox x:Name="txtAno_Copy" HorizontalAlignment="Left" Margin="406,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="76"/>
     </Grid>
 </Window>

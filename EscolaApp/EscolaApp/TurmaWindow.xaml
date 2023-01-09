@@ -9,11 +9,11 @@
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="21,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Id:"/></TextBlock>
         <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="21,39,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
-        <TextBlock HorizontalAlignment="Left" Margin="67,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Curso"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="67,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"><Run Text="Curso"/><Run Language="pt-br" Text=":"/></TextBlock>
         <TextBox x:Name="txtCurso" HorizontalAlignment="Left" Margin="67,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="193,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Turma"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="193,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"><Run Text="Turma"/><Run Language="pt-br" Text=":"/></TextBlock>
         <TextBox x:Name="txtTurma" HorizontalAlignment="Left" Margin="193,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="318,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Ano Letivo"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="318,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"><Run Text="Ano Letivo"/><Run Language="pt-br" Text=":"/></TextBlock>
         <TextBox x:Name="txtAno" HorizontalAlignment="Left" Margin="318,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"/>
         <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="21,68,0,0" VerticalAlignment="Top"/>
         <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="67,68,0,0" VerticalAlignment="Top"/>
