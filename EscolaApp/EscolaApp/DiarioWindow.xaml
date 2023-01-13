@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="DiarioWindow" Height="250" Width="300">
+        Title="Diário da turma" Height="270" Width="400">
     <Grid>
-        
+        <ListBox Name="listTurmas" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,10,0,0" Width="380" Height="90"/>
+        <ListBox x:Name="listAlunos" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0,110,0,0" Width="380" Height="90"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="10,209,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>

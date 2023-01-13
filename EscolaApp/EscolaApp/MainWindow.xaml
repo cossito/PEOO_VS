@@ -5,12 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="300">
+        Title="Escola" Height="200" Width="300">
     <Grid>
-        <Button Click="Turma_Click" Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="15,17,0,0" VerticalAlignment="Top" Width="97"/>
-        <Button Click="Aluno_Click" Content="Cadastrar Aluno" HorizontalAlignment="Left" Margin="15,51,0,0" VerticalAlignment="Top" Width="97"/>
-        <Button Click="Matricula_Click" Content="Matricular Aluno" HorizontalAlignment="Left" Margin="15,86,0,0" VerticalAlignment="Top" Width="97"/>
-        <Button Click="Diario_Click" Content="Diário da turma" HorizontalAlignment="Left" Margin="15,120,0,0" VerticalAlignment="Top" Width="97"/>
-
+        <Menu>
+            <MenuItem Header="Cadastro">
+                <MenuItem Header="Turmas..." Click="Turma_Click" />
+                <MenuItem Header="Alunos..." Click="Aluno_Click" />
+            </MenuItem>
+            <MenuItem Header="Operações">
+                <MenuItem Header="Matricular Aluno..." Click="Matricula_Click" />
+                <MenuItem Header="Diario da turma..." Click="Diario_Click" />
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>

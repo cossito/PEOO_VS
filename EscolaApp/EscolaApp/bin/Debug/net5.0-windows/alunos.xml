@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Aluno>
+    <Id>1</Id>
+    <Nome>home simpson</Nome>
+    <Matricula>20397507</Matricula>
+    <Email>homesimspon@msn.com</Email>
+    <IdTurma>1</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>2</Id>
+    <Nome>kleber da bahia</Nome>
+    <Matricula>2464364</Matricula>
+    <Email>k.bahia@gmail.com</Email>
+    <IdTurma>2</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>3</Id>
+    <Nome>mamba out</Nome>
+    <Matricula>348732257</Matricula>
+    <Email>out_mamba@gmail.com</Email>
+    <IdTurma>1</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>4</Id>
+    <Nome>leiteiro de saia</Nome>
+    <Matricula>252463635</Matricula>
+    <Email>genocidio12@gmail.com</Email>
+    <IdTurma>4</IdTurma>
+  </Aluno>
+  <Aluno>
+    <Id>5</Id>
+    <Nome>scragbadun</Nome>
+    <Matricula>09318509</Matricula>
+    <Email>akirabolinhas@gmail.com</Email>
+    <IdTurma>5</IdTurma>
+  </Aluno>
+</ArrayOfAluno>

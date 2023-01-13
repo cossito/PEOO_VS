@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfAluno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Aluno>
+<ArrayOfTurma xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Turma>
     <Id>1</Id>
-    <Nome>moaifjowwdwef</Nome>
-    <Matricula>2038259</Matricula>
-    <Email>foeicjargroe</Email>
-    <IdTurma>4</IdTurma>
-  </Aluno>
-</ArrayOfAluno>
+    <Curso>pescaria</Curso>
+    <Descricao>1 ano</Descricao>
+    <AnoLetivo>3971</AnoLetivo>
+  </Turma>
+  <Turma>
+    <Id>2</Id>
+    <Curso>fabricação de tomadas</Curso>
+    <Descricao>2 ano</Descricao>
+    <AnoLetivo>2790</AnoLetivo>
+  </Turma>
+  <Turma>
+    <Id>3</Id>
+    <Curso>apagamento de lampadas</Curso>
+    <Descricao>3 ano</Descricao>
+    <AnoLetivo>3983</AnoLetivo>
+  </Turma>
+  <Turma>
+    <Id>4</Id>
+    <Curso>leite</Curso>
+    <Descricao>4 ano</Descricao>
+    <AnoLetivo>1923</AnoLetivo>
+  </Turma>
+  <Turma>
+    <Id>5</Id>
+    <Curso>manipulação de ópio</Curso>
+    <Descricao>3 ano</Descricao>
+    <AnoLetivo>2353</AnoLetivo>
+  </Turma>
+</ArrayOfTurma>
