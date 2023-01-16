@@ -11,7 +11,7 @@
         <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="14,43,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
         <TextBlock HorizontalAlignment="Left" Margin="60,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="16"><Run Language="pt-br" Text="Nome"/><Run Text=":"/></TextBlock>
         <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="60,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="186,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"><Run Language="pt-br" Text="Matricula"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="186,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Height="20"><Run Text="Matr"/><Run Language="pt-br" Text="í"/><Run Text="cula"/><Run Text=":"/></TextBlock>
         <TextBox x:Name="txtMatricula" HorizontalAlignment="Left" Margin="186,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="310,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66" Height="16"><Run Text="E"/><Run Language="pt-br" Text="-"/><Run Text="mail"/><Run Text=":"/></TextBlock>
         <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="310,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>

@@ -5,20 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="Cadastro de turmas" Height="200" Width="400">
+        Title="Cadastro de turmas" Height="200" Width="480">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="21,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Id:"/></TextBlock>
-        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="21,39,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
-        <TextBlock HorizontalAlignment="Left" Margin="67,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"><Run Text="Curso"/><Run Language="pt-br" Text=":"/></TextBlock>
-        <TextBox x:Name="txtCurso" HorizontalAlignment="Left" Margin="67,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="193,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"><Run Text="Turma"/><Run Language="pt-br" Text=":"/></TextBlock>
-        <TextBox x:Name="txtTurma" HorizontalAlignment="Left" Margin="193,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBlock HorizontalAlignment="Left" Margin="318,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"><Run Text="Ano Letivo"/><Run Language="pt-br" Text=":"/></TextBlock>
-        <TextBox x:Name="txtAno" HorizontalAlignment="Left" Margin="318,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"/>
-        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="21,68,0,0" VerticalAlignment="Top"/>
-        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="67,68,0,0" VerticalAlignment="Top"/>
-        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="107,68,0,0" VerticalAlignment="Top"/>
-        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="166,68,0,0" VerticalAlignment="Top"/>
-        <ListBox x:Name="listTurmas" Margin="21,97,17,10" SelectionChanged="listTurmas_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Id:"/></TextBlock>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="19,39,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="40"/>
+        <TextBlock HorizontalAlignment="Left" Margin="65,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"><Run Text="Curso"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox x:Name="txtCurso" HorizontalAlignment="Left" Margin="65,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="191,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"><Run Text="Turma"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox x:Name="txtTurma" HorizontalAlignment="Left" Margin="191,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="316,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"><Run Text="Ano Letivo"/><Run Language="pt-br" Text=":"/></TextBlock>
+        <TextBox x:Name="txtAno" HorizontalAlignment="Left" Margin="316,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="71"/>
+        <Button Click="InserirClick" Content="Inserir" HorizontalAlignment="Left" Margin="19,68,0,0" VerticalAlignment="Top"/>
+        <Button Click="ListarClick" Content="Listar" HorizontalAlignment="Left" Margin="65,68,0,0" VerticalAlignment="Top"/>
+        <Button Click="AtualizarClick" Content="Atualizar" HorizontalAlignment="Left" Margin="105,68,0,0" VerticalAlignment="Top"/>
+        <Button Click="ExcluirClick" Content="Excluir" HorizontalAlignment="Left" Margin="164,68,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listTurmas" Margin="19,97,19,10" SelectionChanged="listTurmas_SelectionChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="392,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="65"><Run Language="pt-br" Text="IdProfessor:"/></TextBlock>
+        <TextBox x:Name="txtIdProfessor" HorizontalAlignment="Left" Margin="392,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="69"/>
     </Grid>
 </Window>

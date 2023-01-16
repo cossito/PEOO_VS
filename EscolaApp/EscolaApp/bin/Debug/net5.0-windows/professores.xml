@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProfessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Professor>
+    <Id>1</Id>
+    <Nome>galado</Nome>
+    <Matricula>37234092</Matricula>
+    <Area>informatica</Area>
+  </Professor>
+  <Professor>
+    <Id>2</Id>
+    <Nome>flavio</Nome>
+    <Matricula>23982934</Matricula>
+    <Area>geologia</Area>
+  </Professor>
+  <Professor>
+    <Id>3</Id>
+    <Nome>whatsapp</Nome>
+    <Matricula>309481140</Matricula>
+    <Area>sei nao</Area>
+  </Professor>
+</ArrayOfProfessor>

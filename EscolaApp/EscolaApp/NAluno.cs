@@ -56,7 +56,7 @@ namespace EscolaApp
             StreamReader f = null;
             try
             {
-                // objeto que transforma uma lista de turmas em texto em XML
+                // objeto que transforma uma lista de professores em texto em XML
                 XmlSerializer xml = new XmlSerializer(typeof(List<Aluno>));
                 // objeto que abre um texto em um arquivo
                 f = new StreamReader("./alunos.xml");
@@ -72,7 +72,7 @@ namespace EscolaApp
         }
         public static void Salvar()
         {
-            // objeto que transforma uma lista de turmas em texto em XML
+            // objeto que transforma uma lista de alunos em texto em XML
             XmlSerializer xml = new XmlSerializer(typeof(List<Aluno>));
             // objeto que grava um texto em um arquivo
             StreamWriter f = new StreamWriter("./alunos.xml", false);

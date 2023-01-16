@@ -31,6 +31,7 @@ namespace EscolaApp
             t.Curso = txtCurso.Text;
             t.Descricao = txtTurma.Text;
             t.AnoLetivo = int.Parse(txtAno.Text);
+            t.IdProfessor = int.Parse(txtIdProfessor.Text);
             NTurma.Inserir(t);
             ListarClick(sender, e);
         }
@@ -48,6 +49,7 @@ namespace EscolaApp
             t.Curso = txtCurso.Text;
             t.Descricao = txtTurma.Text;
             t.AnoLetivo = int.Parse(txtAno.Text);
+            t.IdProfessor = int.Parse(txtIdProfessor.Text);
             NTurma.Atualizar(t);
             ListarClick(sender, e);
         }
@@ -69,6 +71,7 @@ namespace EscolaApp
                 txtCurso.Text = obj.Curso;
                 txtTurma.Text = obj.Descricao;
                 txtAno.Text = obj.AnoLetivo.ToString();
+                t.IdProfessor = int.Parse(txtIdProfessor.Text);
             }
         }
     }

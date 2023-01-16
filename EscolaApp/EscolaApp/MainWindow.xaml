@@ -11,6 +11,7 @@
             <MenuItem Header="Cadastro">
                 <MenuItem Header="Turmas..." Click="Turma_Click" />
                 <MenuItem Header="Alunos..." Click="Aluno_Click" />
+                <MenuItem Header="Professores..." Click="Professor_Click" />
             </MenuItem>
             <MenuItem Header="Operações">
                 <MenuItem Header="Matricular Aluno..." Click="Matricula_Click" />
